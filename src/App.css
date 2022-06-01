@@ -1,0 +1,61 @@
+.App {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.titleApp {
+  text-align: center;
+}
+
+.countryInput {
+  margin-top: 100px;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  width: 50%;
+}
+
+.countryList{
+width: 45%;
+margin: auto;
+overflow-y: scroll;
+height: 400px;
+}
+
+.countriesGrid {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.countriesGrid:hover{
+  background-color: rgba(130, 203, 209, 0.543);
+}
+
+.countriesGrid li {
+  list-style: none;
+  padding: 10px;
+}
+
+.countriesGrid img {
+  max-width: 100px;
+}
+
+
+.capitalDiv {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  margin: 100px auto;
+}
+
+.dynamicInfo {
+  font-weight: bold;
+  font-size: large;
+  color: rgba(130, 203, 209)
+}
